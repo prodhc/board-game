@@ -17,11 +17,11 @@ const sharedConfig = {
   module.exports = {
     development: {
       ...sharedConfig,
-      connection: { filename: './data/players.db3' },
+      connection: { filename: './data/playersdev.db3' },
     },
     production: {
         ...sharedConfig,
-        connection: { filename: './data/playersPublic.db3' },
+        connection: { filename: './data/players.db3' },
       },
     testing: {
       ...sharedConfig,
